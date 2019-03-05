@@ -30,4 +30,5 @@ connection.query('insert into users set ?',person, function (error, results, fie
   if (error) throw error;
   console.log(results);
 });
+
 connection.end();
